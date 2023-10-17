@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+}
+
+
+.custom-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Small screens */
+@media (min-width: 600px) {
+    .custom-padding {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 900px) {
+    .custom-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .custom-padding {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1536px) {
+    .custom-padding {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
